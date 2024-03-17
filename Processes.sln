@@ -21,7 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskDZ", "TaskDZ\TaskDZ.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{0A8006D4-81D1-432E-9901-58AF80BC7C9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileCopy", "FileCopy\FileCopy.csproj", "{E962A6C1-4B9F-49FB-BDB0-30EEF4D994BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FileCopy", "FileCopy\FileCopy.csproj", "{E962A6C1-4B9F-49FB-BDB0-30EEF4D994BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindWorlds", "FindWorlds\FindWorlds.csproj", "{C048F3AD-88CA-4434-BB84-6053413D5890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelDZ", "ParallelDZ\ParallelDZ.csproj", "{DA6AE7D2-8B57-41B2-8AE0-3C93998F001E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{E962A6C1-4B9F-49FB-BDB0-30EEF4D994BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E962A6C1-4B9F-49FB-BDB0-30EEF4D994BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E962A6C1-4B9F-49FB-BDB0-30EEF4D994BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C048F3AD-88CA-4434-BB84-6053413D5890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C048F3AD-88CA-4434-BB84-6053413D5890}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C048F3AD-88CA-4434-BB84-6053413D5890}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C048F3AD-88CA-4434-BB84-6053413D5890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6AE7D2-8B57-41B2-8AE0-3C93998F001E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6AE7D2-8B57-41B2-8AE0-3C93998F001E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6AE7D2-8B57-41B2-8AE0-3C93998F001E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6AE7D2-8B57-41B2-8AE0-3C93998F001E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,73 @@
+﻿<Window x:Class="FindWorlds.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FindWorlds"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    
+    <DockPanel LastChildFill="false">
+        
+        <!--<Grid Margin="10" DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="680"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+
+            <Label>From : </Label>
+            <Label Grid.Row="1">Worlds : </Label>
+            <TextBox Background="LightBlue" Grid.Column="1"></TextBox>
+            <TextBox Background="AliceBlue" Grid.Column="1" Grid.Row="1"></TextBox>
+
+            <Button Grid.Column="2">Browse</Button>
+            <Button Grid.Column="2" Grid.Row="1">Search</Button>  
+            
+            
+            
+        </Grid>-->
+
+
+        <Grid Margin="10" DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="Auto"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label>From :</Label>
+            <Label Grid.Row="1">To :</Label>
+
+            <TextBox Text="{Binding Source}" TextAlignment="Center" Grid.Column="1" ></TextBox>
+            <TextBox x:Name="Search" TextAlignment="Center" Grid.Column="1" Grid.Row="1" ></TextBox>
+
+            <Button Click="Open_Source_Button_Click" Grid.Column="2" >Browse</Button>
+            <Button Click="Button_Search_Click" Grid.Column="2" Grid.Row="1" >Browse</Button>
+
+
+        </Grid>
+        
+        
+        <ListBox Height="330"  Background="Aquamarine" DockPanel.Dock="Top">
+            
+        </ListBox>
+
+        <ProgressBar Height="30" DockPanel.Dock="Top">
+            
+        </ProgressBar>
+    </DockPanel>
+</Window>

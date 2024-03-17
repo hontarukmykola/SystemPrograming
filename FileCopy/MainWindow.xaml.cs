@@ -66,7 +66,7 @@ namespace FileCopy
             {
                 model.Progress = progress.Percentage;
                 info.Percentage = progress.Percentage;
-                info.ButesPerSecond = progress.BytesPerSecond / 1024 / 1024;
+                info.ButesPerSecond = progress.BytesPerSecond;
             }, false);
             //return Task.Run(() =>
             //{
